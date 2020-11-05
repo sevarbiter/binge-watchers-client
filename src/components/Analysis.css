@@ -1,16 +1,24 @@
 .Analysis {
+  min-height: 100vh;
   text-align: center;
+  background-color: white;
 }
 
 .Analysis-header {
-  /* background-color: #282c34; */
-  background-color: white;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(8px + 2vmin);
-  /* color: white; */
   color: black;
+}
+
+.Form {
+  min-width: 10000;
+  margin: 1000;
+}
+
+.Select {
+  min-width: 10000;
 }
